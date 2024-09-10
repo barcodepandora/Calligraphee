@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		563BDDBD2C8FB3300031A0A2 /* CalligrapheeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563BDDBC2C8FB3300031A0A2 /* CalligrapheeApp.swift */; };
+		563BDDBF2C8FB3300031A0A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563BDDBE2C8FB3300031A0A2 /* ContentView.swift */; };
+		563BDDC12C8FB3330031A0A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563BDDC02C8FB3330031A0A2 /* Assets.xcassets */; };
+		563BDDC42C8FB3330031A0A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563BDDC32C8FB3330031A0A2 /* Preview Assets.xcassets */; };
+		563BDDCE2C8FB3340031A0A2 /* CalligrapheeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563BDDCD2C8FB3340031A0A2 /* CalligrapheeTests.swift */; };
+		563BDDD82C8FB3340031A0A2 /* CalligrapheeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563BDDD72C8FB3340031A0A2 /* CalligrapheeUITests.swift */; };
+		563BDDDA2C8FB3340031A0A2 /* CalligrapheeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563BDDD92C8FB3340031A0A2 /* CalligrapheeUITestsLaunchTests.swift */; };
+		563BDDE82C8FB36B0031A0A2 /* CircleForSketching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563BDDE72C8FB36B0031A0A2 /* CircleForSketching.swift */; };
+		563BDDEA2C8FB3890031A0A2 /* GestureTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563BDDE92C8FB3890031A0A2 /* GestureTestView.swift */; };
+		563BDDEC2C8FB3AE0031A0A2 /* SwipeGestureTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563BDDEB2C8FB3AE0031A0A2 /* SwipeGestureTestView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		563BDDCA2C8FB3340031A0A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563BDDB12C8FB3300031A0A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 563BDDB82C8FB3300031A0A2;
+			remoteInfo = Calligraphee;
+		};
+		563BDDD42C8FB3340031A0A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563BDDB12C8FB3300031A0A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 563BDDB82C8FB3300031A0A2;
+			remoteInfo = Calligraphee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		563BDDB92C8FB3300031A0A2 /* Calligraphee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calligraphee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		563BDDBC2C8FB3300031A0A2 /* CalligrapheeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalligrapheeApp.swift; sourceTree = "<group>"; };
+		563BDDBE2C8FB3300031A0A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		563BDDC02C8FB3330031A0A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		563BDDC32C8FB3330031A0A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		563BDDC92C8FB3340031A0A2 /* CalligrapheeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalligrapheeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		563BDDCD2C8FB3340031A0A2 /* CalligrapheeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalligrapheeTests.swift; sourceTree = "<group>"; };
+		563BDDD32C8FB3340031A0A2 /* CalligrapheeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalligrapheeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		563BDDD72C8FB3340031A0A2 /* CalligrapheeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalligrapheeUITests.swift; sourceTree = "<group>"; };
+		563BDDD92C8FB3340031A0A2 /* CalligrapheeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalligrapheeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		563BDDE72C8FB36B0031A0A2 /* CircleForSketching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleForSketching.swift; sourceTree = "<group>"; };
+		563BDDE92C8FB3890031A0A2 /* GestureTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureTestView.swift; sourceTree = "<group>"; };
+		563BDDEB2C8FB3AE0031A0A2 /* SwipeGestureTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeGestureTestView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		563BDDB62C8FB3300031A0A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563BDDC62C8FB3340031A0A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563BDDD02C8FB3340031A0A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		563BDDB02C8FB3300031A0A2 = {
+			isa = PBXGroup;
+			children = (
+				563BDDBB2C8FB3300031A0A2 /* Calligraphee */,
+				563BDDCC2C8FB3340031A0A2 /* CalligrapheeTests */,
+				563BDDD62C8FB3340031A0A2 /* CalligrapheeUITests */,
+				563BDDBA2C8FB3300031A0A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		563BDDBA2C8FB3300031A0A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				563BDDB92C8FB3300031A0A2 /* Calligraphee.app */,
+				563BDDC92C8FB3340031A0A2 /* CalligrapheeTests.xctest */,
+				563BDDD32C8FB3340031A0A2 /* CalligrapheeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		563BDDBB2C8FB3300031A0A2 /* Calligraphee */ = {
+			isa = PBXGroup;
+			children = (
+				563BDDE62C8FB3570031A0A2 /* View */,
+				563BDDBC2C8FB3300031A0A2 /* CalligrapheeApp.swift */,
+				563BDDBE2C8FB3300031A0A2 /* ContentView.swift */,
+				563BDDC02C8FB3330031A0A2 /* Assets.xcassets */,
+				563BDDC22C8FB3330031A0A2 /* Preview Content */,
+			);
+			path = Calligraphee;
+			sourceTree = "<group>";
+		};
+		563BDDC22C8FB3330031A0A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				563BDDC32C8FB3330031A0A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		563BDDCC2C8FB3340031A0A2 /* CalligrapheeTests */ = {
+			isa = PBXGroup;
+			children = (
+				563BDDCD2C8FB3340031A0A2 /* CalligrapheeTests.swift */,
+			);
+			path = CalligrapheeTests;
+			sourceTree = "<group>";
+		};
+		563BDDD62C8FB3340031A0A2 /* CalligrapheeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				563BDDD72C8FB3340031A0A2 /* CalligrapheeUITests.swift */,
+				563BDDD92C8FB3340031A0A2 /* CalligrapheeUITestsLaunchTests.swift */,
+			);
+			path = CalligrapheeUITests;
+			sourceTree = "<group>";
+		};
+		563BDDE62C8FB3570031A0A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				563BDDE72C8FB36B0031A0A2 /* CircleForSketching.swift */,
+				563BDDE92C8FB3890031A0A2 /* GestureTestView.swift */,
+				563BDDEB2C8FB3AE0031A0A2 /* SwipeGestureTestView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		563BDDB82C8FB3300031A0A2 /* Calligraphee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 563BDDDD2C8FB3340031A0A2 /* Build configuration list for PBXNativeTarget "Calligraphee" */;
+			buildPhases = (
+				563BDDB52C8FB3300031A0A2 /* Sources */,
+				563BDDB62C8FB3300031A0A2 /* Frameworks */,
+				563BDDB72C8FB3300031A0A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calligraphee;
+			productName = Calligraphee;
+			productReference = 563BDDB92C8FB3300031A0A2 /* Calligraphee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		563BDDC82C8FB3340031A0A2 /* CalligrapheeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 563BDDE02C8FB3340031A0A2 /* Build configuration list for PBXNativeTarget "CalligrapheeTests" */;
+			buildPhases = (
+				563BDDC52C8FB3340031A0A2 /* Sources */,
+				563BDDC62C8FB3340031A0A2 /* Frameworks */,
+				563BDDC72C8FB3340031A0A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				563BDDCB2C8FB3340031A0A2 /* PBXTargetDependency */,
+			);
+			name = CalligrapheeTests;
+			productName = CalligrapheeTests;
+			productReference = 563BDDC92C8FB3340031A0A2 /* CalligrapheeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		563BDDD22C8FB3340031A0A2 /* CalligrapheeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 563BDDE32C8FB3340031A0A2 /* Build configuration list for PBXNativeTarget "CalligrapheeUITests" */;
+			buildPhases = (
+				563BDDCF2C8FB3340031A0A2 /* Sources */,
+				563BDDD02C8FB3340031A0A2 /* Frameworks */,
+				563BDDD12C8FB3340031A0A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				563BDDD52C8FB3340031A0A2 /* PBXTargetDependency */,
+			);
+			name = CalligrapheeUITests;
+			productName = CalligrapheeUITests;
+			productReference = 563BDDD32C8FB3340031A0A2 /* CalligrapheeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		563BDDB12C8FB3300031A0A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					563BDDB82C8FB3300031A0A2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					563BDDC82C8FB3340031A0A2 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 563BDDB82C8FB3300031A0A2;
+					};
+					563BDDD22C8FB3340031A0A2 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 563BDDB82C8FB3300031A0A2;
+					};
+				};
+			};
+			buildConfigurationList = 563BDDB42C8FB3300031A0A2 /* Build configuration list for PBXProject "Calligraphee" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 563BDDB02C8FB3300031A0A2;
+			productRefGroup = 563BDDBA2C8FB3300031A0A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				563BDDB82C8FB3300031A0A2 /* Calligraphee */,
+				563BDDC82C8FB3340031A0A2 /* CalligrapheeTests */,
+				563BDDD22C8FB3340031A0A2 /* CalligrapheeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		563BDDB72C8FB3300031A0A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563BDDC42C8FB3330031A0A2 /* Preview Assets.xcassets in Resources */,
+				563BDDC12C8FB3330031A0A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563BDDC72C8FB3340031A0A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563BDDD12C8FB3340031A0A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		563BDDB52C8FB3300031A0A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563BDDE82C8FB36B0031A0A2 /* CircleForSketching.swift in Sources */,
+				563BDDBF2C8FB3300031A0A2 /* ContentView.swift in Sources */,
+				563BDDEA2C8FB3890031A0A2 /* GestureTestView.swift in Sources */,
+				563BDDEC2C8FB3AE0031A0A2 /* SwipeGestureTestView.swift in Sources */,
+				563BDDBD2C8FB3300031A0A2 /* CalligrapheeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563BDDC52C8FB3340031A0A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563BDDCE2C8FB3340031A0A2 /* CalligrapheeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563BDDCF2C8FB3340031A0A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563BDDD82C8FB3340031A0A2 /* CalligrapheeUITests.swift in Sources */,
+				563BDDDA2C8FB3340031A0A2 /* CalligrapheeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		563BDDCB2C8FB3340031A0A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 563BDDB82C8FB3300031A0A2 /* Calligraphee */;
+			targetProxy = 563BDDCA2C8FB3340031A0A2 /* PBXContainerItemProxy */;
+		};
+		563BDDD52C8FB3340031A0A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 563BDDB82C8FB3300031A0A2 /* Calligraphee */;
+			targetProxy = 563BDDD42C8FB3340031A0A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		563BDDDB2C8FB3340031A0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		563BDDDC2C8FB3340031A0A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		563BDDDE2C8FB3340031A0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calligraphee/Preview Content\"";
+				DEVELOPMENT_TEAM = PHL7DREDLZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.Calligraphee.Calligraphee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		563BDDDF2C8FB3340031A0A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calligraphee/Preview Content\"";
+				DEVELOPMENT_TEAM = PHL7DREDLZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.Calligraphee.Calligraphee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		563BDDE12C8FB3340031A0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PHL7DREDLZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.Calligraphee.CalligrapheeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calligraphee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calligraphee";
+			};
+			name = Debug;
+		};
+		563BDDE22C8FB3340031A0A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PHL7DREDLZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.Calligraphee.CalligrapheeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calligraphee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calligraphee";
+			};
+			name = Release;
+		};
+		563BDDE42C8FB3340031A0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PHL7DREDLZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.Calligraphee.CalligrapheeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Calligraphee;
+			};
+			name = Debug;
+		};
+		563BDDE52C8FB3340031A0A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PHL7DREDLZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.Calligraphee.CalligrapheeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Calligraphee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		563BDDB42C8FB3300031A0A2 /* Build configuration list for PBXProject "Calligraphee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563BDDDB2C8FB3340031A0A2 /* Debug */,
+				563BDDDC2C8FB3340031A0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		563BDDDD2C8FB3340031A0A2 /* Build configuration list for PBXNativeTarget "Calligraphee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563BDDDE2C8FB3340031A0A2 /* Debug */,
+				563BDDDF2C8FB3340031A0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		563BDDE02C8FB3340031A0A2 /* Build configuration list for PBXNativeTarget "CalligrapheeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563BDDE12C8FB3340031A0A2 /* Debug */,
+				563BDDE22C8FB3340031A0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		563BDDE32C8FB3340031A0A2 /* Build configuration list for PBXNativeTarget "CalligrapheeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563BDDE42C8FB3340031A0A2 /* Debug */,
+				563BDDE52C8FB3340031A0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 563BDDB12C8FB3300031A0A2 /* Project object */;
+}
